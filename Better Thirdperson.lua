@@ -1,6 +1,6 @@
 local Enable = gui.Checkbox(gui.Reference("Visuals","Local","Camera"),"animthirdperson", "Animate Thirdperson Toggle" , false);
 Enable:SetDescription("Unbind Enable Third Person checkbox and bind this")
-local Distance = gui.GetValue("esp.local.thirdpersondist")
+local Distance = gui.GetValue("esp.local.thirdpersonlist")
 local value = 0;
 
 local function Thirdperson()
